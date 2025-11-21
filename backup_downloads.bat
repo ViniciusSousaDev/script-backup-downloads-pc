@@ -4,8 +4,8 @@ for /f "tokens=2 delims==" %%i in ('"wmic os get LocalDateTime /value | find /i 
 set data=%dt:~0,4%-%dt:~4,2%-%dt:~6,2%
 
 :: Define os caminhos
-set origem=C:\Users\Pichau\Downloads
-set destino=E:\Users\Windows 10\Desktop\BACKUP SSD PRINCIPAL
+set origem=C:\Users\SeuUsuario\Downloads
+set destino=E:\Usuario\SeuUsuario\Desktop\
 set pastaBackup=Backup Downloads %data%
 set destinoFinal=%destino%\%pastaBackup%
 
